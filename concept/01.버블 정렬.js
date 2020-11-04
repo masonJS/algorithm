@@ -22,10 +22,11 @@
 
 
 function bubbleSort(array) {
-  let len = array.length;
-  for(let i = 0; i < len; i ++) {
+  const len = array.length;
+  let i,j;
+  for(i = 0; i < len; i ++) {
     let temp;
-    for(let j = 0; j < len - 1 - i; j++) { 에
+    for(j = 0; j < len - 1 - i; j++) {
       // len - 1 인 이유는 비교로직이 array[i], array[i+1] 두 값을 가지고 비교하기 때문에 검색대상에 마지막 값도 포함되기때문에
       if (array[j] > array[j+1]) {
         temp = array[j]
@@ -33,7 +34,6 @@ function bubbleSort(array) {
         array[j+1] = temp
       }
     }
-
     if (temp === undefined) {
       break;
     }
