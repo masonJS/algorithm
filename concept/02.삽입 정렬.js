@@ -19,7 +19,7 @@
 function insertionSort (array) {
   const len = array.length;
   let i;
-  for(i = 0; i < len; i++) {
+  for(i = 1; i < len; i++) {
     const cur = array[i];
     let left = i - 1;
     while(left >=0 && array[left] > cur) {
@@ -32,4 +32,7 @@ function insertionSort (array) {
 }
 
 console.log(insertionSort([6,4,5,2,3,1]))
+
+/* Ref: https://im-developer.tistory.com/133?category=846746 */
+
 

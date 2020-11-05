@@ -37,3 +37,6 @@ function selectionSort (array) {
 }
 
 console.log(selectionSort([6,4,5,2,3,1]))
+
+/* Ref: https://im-developer.tistory.com/133?category=846746 */
+
