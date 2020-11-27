@@ -24,7 +24,7 @@
 function solution(s){
   let count = 0;
   for (let i = 0; i < s.length; i++) {
-    s[i] === '0' ? count++ : count--;
+    s.charAt(i) === '0' ? count++ : count--;
   }
   return Math.abs(count)
 }
