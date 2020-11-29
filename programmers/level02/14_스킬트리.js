@@ -1,3 +1,7 @@
+/**
+ * https://programmers.co.kr/learn/courses/30/lessons/49993
+ * */
+
 function solution(skill, skill_trees) {
   let answer = 0;
   let i, j;

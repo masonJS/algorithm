@@ -2,8 +2,9 @@
  * https://programmers.co.kr/learn/courses/30/lessons/17684
  *
  * */
-const { range } = require('../function/range')
-const { log } = require('../function/log')
+
+const { range } = require('../../function/range')
+const { log } = require('../../function/log')
 const str = 'KAKAO'
 
 function solution(msg) {
